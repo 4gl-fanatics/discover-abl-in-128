@@ -1,0 +1,66 @@
+{
+    "id": 95,
+    "url": "https://sfrbo.consultingwerkcloud.com:8821/web/Entities/Orders/95",
+    "Ordernum": 95,
+    "CustNum": 27,
+    "OrderDate": "2009-01-30",
+    "ShipDate": "2009-02-04",
+    "PromiseDate": "2009-02-04",
+    "Carrier": "FlyByNight Courier",
+    "Instructions": "",
+    "PO": "",
+    "Terms": "Net30",
+    "SalesRep": "GPE",
+    "BillToID": 0,
+    "ShipToID": 0,
+    "OrderStatus": "Shipped",
+    "WarehouseNum": 0,
+    "Creditcard": "American Express",
+    "CustName": "",
+    "RepName": "",
+    "OrderTotal": 18053,
+    "eCustomer": {
+        "url": "https://sfrbo.consultingwerkcloud.com:8821/web/Entities/Customers/27",
+        "Country": "AT",
+        "Name": "Bumm Bumm Tennis",
+        "City": "Wien"
+    },
+    "eOrderLine": [
+        {
+            "url": "https://sfrbo.consultingwerkcloud.com:8821/web/Entities/Orders/95/OrderLines/1",
+            "Linenum": 1,
+            "Itemnum": 18,
+            "Price": 225,
+            "Qty": 73,
+            "Discount": 0,
+            "ExtendedPrice": 16425,
+            "OrderLineStatus": "Shipped",
+            "eItem": {
+                "url": "https://sfrbo.consultingwerkcloud.com:8821/web/Entities/Items/18",
+                "ItemName": "Wet Suit",
+                "Price": 225
+            }
+        },
+        {
+            "url": "https://sfrbo.consultingwerkcloud.com:8821/web/Entities/Orders/95/OrderLines/2",
+            "Linenum": 2,
+            "Itemnum": 42,
+            "Price": 37,
+            "Qty": 44,
+            "Discount": 0,
+            "ExtendedPrice": 1628,
+            "OrderLineStatus": "Shipped",
+            "eItem": {
+                "url": "https://sfrbo.consultingwerkcloud.com:8821/web/Entities/Items/42",
+                "ItemName": "Hockey Stick",
+                "Price": 37
+            }
+        }
+    ],
+    "links": [
+        {
+            "rel": "orderlines",
+            "href": "https://sfrbo.consultingwerkcloud.com:8821/web/Entities/Orders/95/OrderLines"
+        }
+    ]
+}
