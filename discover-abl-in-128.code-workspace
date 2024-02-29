@@ -9,6 +9,7 @@
             "**/*.r": true,
             "**/.builder": true,
             "**/.sonarlint": true,
+            "**/.pct": true,
             "**/.vscode": false
         },
         "files.encoding": "iso88591",

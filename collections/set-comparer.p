@@ -16,7 +16,7 @@ message
 
 oSetIterator = oPersonSet:GetIterator().
 
-display "First Name     Last Name"  skip
+display "Sorted by First Name, Last Name" skip "First Name     Last Name"  skip
     fill("=", 40) format "x(40)".
 
 repeat while oSetIterator:MoveNext():

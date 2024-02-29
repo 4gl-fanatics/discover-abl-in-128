@@ -22,8 +22,9 @@ var character[] cWeekdays = ["Sun", "Mon","Tue","Wed","Thu","Fri", "Sat"].
 
 
 
-message extent(cWeekdays).
+message "before: " extent(cWeekdays).
 
 extent(cWeekdays) = 8.
 
-message extent(cWeekdays).
+message "after: " extent(cWeekdays).
+message "[4]" cWeekdays[4].

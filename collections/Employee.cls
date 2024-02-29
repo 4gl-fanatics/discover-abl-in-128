@@ -30,8 +30,7 @@ class collections.Employee
         return substitute("&1,&2 (&3)", this-object:LastName, this-object:FirstName, this-object:EmployeeId).
     end method.
 
-    /* The HashCode()
-    */
+    /* The HashCode() method */
     method public integer HashCode().
         // Hash on the value of property EmployeeID
         return hash-code(this-object:EmployeeID).

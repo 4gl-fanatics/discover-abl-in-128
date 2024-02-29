@@ -13,12 +13,11 @@ oPersonSet:Add(new Person("Zadie", "Jones")).
 oPersonSet:Add(new Person("Roger", "Thomson")).
 
 message
-    oPersonSet:Count skip
-    view-as alert-box.
+    "Count: " oPersonSet:Count .
 
 oSetIterator = oPersonSet:GetIterator().
 
-display "First Name     Last Name"  skip
+display "Sorted by Last Name, First Name" skip "First Name     Last Name"  skip
     fill("=", 40) format "x(40)".
 
 repeat while oSetIterator:MoveNext():
@@ -29,5 +28,5 @@ catch err as Progress.Lang.Error:
     message
         err:GetMessage(1) skip(2)
         err:CallStack
-        view-as alert-box.
+        .
 end catch.
