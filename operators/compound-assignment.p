@@ -1,4 +1,18 @@
-/*
+/**
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+**/
+/*------------------------------------------------------------------------
+    File        : compound-assignment.p
+    Purpose     :
+    Author(s)   : Peter Judge, Consultingwerk Ltd
+    Notes       :
+  ----------------------------------------------------------------------*/
+
 var integer i, j, k.
 var decimal d = 100.
 var character p, q, r.
@@ -35,11 +49,3 @@ do i = 1 to 10:
 end.
 
 message "5 halved 20 times = " d.
-*/
-
-var integer i, k.
-var character r.
-
-i = i + 1.
-k = k * i.
-r = substitute("&1 x: &2 y: &3", r, i, k).
